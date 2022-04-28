@@ -4,7 +4,9 @@
 This project aims to modify video streams by covering up the faces that it 
 finds. The goal is to get some type of data feed that can be imported into OBS.
 
-## Prerequisites
+
+<details>
+  <summary>Prerequisites</summary>
 Create a virtualenv at `${project_root}/.venv`.
 
 Run:
@@ -37,6 +39,12 @@ git submodule update
 make link_interfaces
 ```
 
+For more info see:
+
+[pep-561](https://peps.python.org/pep-0561/)
+
+[git submodules](https://git-scm.com/docs/gitsubmodules)
+</details>
 
 
 ```
