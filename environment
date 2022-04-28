@@ -1,0 +1,3 @@
+project_root="$(pwd)"
+export project_root
+export PYTHONPATH="${project_root}/src:"
