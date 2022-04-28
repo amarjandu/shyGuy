@@ -33,6 +33,4 @@ class Camera:
         log.warning('Camera is released')
 
     def display(self):
-        cv2.imshow(f'Camera {self.camera_number}', self.read()[1])
-        if cv2.waitKey(0):
-            cv2.destroyAllWindows()
+        return cv2.imshow(f'Camera {self.camera_number}', self.read()[1])
