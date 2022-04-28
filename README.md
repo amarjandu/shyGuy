@@ -46,6 +46,15 @@ For more info see:
 [git submodules](https://git-scm.com/docs/gitsubmodules)
 </details>
 
+## Testing Locally
+
+Run:
+```bash
+source environment
+python scripts/view_cam.py
+```
+
+
 
 ```
 ⠀⠀⠀⠀⠀⠀⢀⣠⣤⣶⣶⣤⣤⣀⣠⣴⣶⣶⣦⠀⠀
