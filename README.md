@@ -5,10 +5,13 @@ This project aims to modify video streams by covering up the faces that it
 finds. The goal is to get some type of data feed that can be imported into OBS.
 
 ## Prerequisites
-Create a virtualenv folder to `${project_root}/.venv`.
+Create a virtualenv at `${project_root}/.venv`.
 
 Run:
 ```bash
+#I have a hard option that you should have commands that can
+# do this in your ~/.bash_profile, down the line you'll need
+# to nuke dependencies... it's useful
     make cvenv
 ```
 
@@ -24,9 +27,8 @@ pip install -r requirements.txt
 
 _**Optional**_
 
-This initalizes [python-type-subs](https://github.com/microsoft/python-type-stubs) as
-a submodule, and copies the `cv2/__init__.pyi` file into the pip package 
-installation location.
+This initializes [python-type-subs](https://github.com/microsoft/python-type-stubs) as
+a submodule, and symlinks the `cv2/__init__.pyi` file into the cv2 module within the virtualenv.
 
 Run:
 ```bash
