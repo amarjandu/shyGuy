@@ -7,9 +7,10 @@ def main():
     while True:
         cam.display()
         # waitKey returns `-1` if input is not detected in time, anything else
-        # is a value
+        # is the int from the key input.
         if cv2.waitKey(1) != -1:
             break
+    cam.release()
     cv2.destroyAllWindows()
     exit(0)
 
