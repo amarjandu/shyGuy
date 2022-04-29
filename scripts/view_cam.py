@@ -3,7 +3,7 @@ import cv2
 
 
 def main():
-    cam = Camera(1)
+    cam = Camera(0)
     while True:
         cam.display()
         # waitKey returns `-1` if input is not detected in time, anything else
