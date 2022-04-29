@@ -7,6 +7,7 @@ finds. The goal is to get some type of data feed that can be imported into OBS.
 ---
 <details>
   <summary>Prerequisites</summary>
+
 Create a virtualenv at `${project_root}/.venv`.
 
 Run:
