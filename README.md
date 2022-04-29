@@ -4,7 +4,7 @@
 This project aims to modify video streams by covering up the faces that it 
 finds. The goal is to get some type of data feed that can be imported into OBS.
 
-
+---
 <details>
   <summary>Prerequisites</summary>
 Create a virtualenv at `${project_root}/.venv`.
@@ -23,6 +23,7 @@ Run:
 # make sure the venv is active... 👀
 pip install -r requirements.txt
 ```
+---
 
 
 ### Getting interface files
@@ -46,6 +47,9 @@ For more info see:
 [git submodules](https://git-scm.com/docs/gitsubmodules)
 </details>
 
+---
+
+
 ## Testing Locally
 
 Run:
@@ -55,7 +59,7 @@ python scripts/view_cam.py
 ```
 
 
-
+---
 ```
 ⠀⠀⠀⠀⠀⠀⢀⣠⣤⣶⣶⣤⣤⣀⣠⣴⣶⣶⣦⠀⠀
 ⠀⠀⠀⠀⠀⠘⠛⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀
