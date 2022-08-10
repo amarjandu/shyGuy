@@ -7,5 +7,5 @@ link_interfaces:
 .PHONY: cvenv
 cvenv:
 	if test -e .venv; then rm -rf .venv/; fi
-	python -m venv .venv
+	python -m virtualenv .venv
 	source /.venv/bin/activate
