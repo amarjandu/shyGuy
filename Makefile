@@ -8,4 +8,4 @@ link_interfaces:
 cvenv:
 	if test -e .venv; then rm -rf .venv/; fi
 	python -m virtualenv .venv
-	source /.venv/bin/activate
+	source .venv/bin/activate
