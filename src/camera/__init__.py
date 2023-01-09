@@ -37,5 +37,6 @@ class Camera:
         self.video_capture.release()
         log.warning('Camera is released')
 
-    def display(self):
-        return cv2.imshow(f'Camera {self.camera_number}', self.read()[1])
+        a = []
+        a.index('foo')
+
